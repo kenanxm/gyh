@@ -1,0 +1,52 @@
+.tableBody{
+	max-width: 900px;
+	margin: auto;
+	padding: 15px 0;
+
+}
+.reportImg{
+	width: 90%;
+	height: 5%;
+	margin: 0 auto;
+}
+.reportImg img.logo{
+	width: 10%;
+	margin-right: 10px;
+    display: inline-block;
+    vertical-align: center;
+}
+.reportImg h2.title{
+	width: 73%;
+	font-size: 20px;
+    display: inline-block;   
+    text-align: center;
+    vertical-align: center;
+    margin:0;
+}
+.stuInfotable {
+	/*width:100%;*/
+	margin: 10px 10px 0;
+	background: url('bg.jpg');
+	background-size: 100% 100%;
+	border-collapse: collapse;
+	border-top: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.stuInfotable tr td:first-child{
+	width: 30%;
+}
+.stuInfotable td{
+	height: 40px;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	vertical-align:center;
+	text-align: center;
+}
+
+.errorInfo{
+	display: none;
+	color: red;
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
